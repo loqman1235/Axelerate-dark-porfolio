@@ -1,4 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap");
+/*@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap");*/
+
+/*@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -6,10 +10,28 @@
 
 @layer base {
   body {
-    font-family: "Rubik", sans-serif;
+    font-family: "Poppins", sans-serif;
     background-color: #03001c;
     color: #fff;
     scroll-behavior: smooth;
     overflow-x: hidden;
+  }
+
+  .move-animation {
+    animation: move 15s ease infinite;
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(0%) translateX(-50%);
+  }
+
+  50% {
+    transform: translateY(-50%) translateX(-50%);
+  }
+
+  100% {
+    transform: translateY(0%) translateX(-50%);
   }
 }

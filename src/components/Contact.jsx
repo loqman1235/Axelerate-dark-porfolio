@@ -7,6 +7,7 @@ import {
   FaTwitter,
   FaDribbble,
   FaInstagram,
+  FaGithub,
 } from "react-icons/fa";
 
 const Contact = () => {
@@ -63,11 +64,11 @@ const Contact = () => {
           </p>
           <p className="text-sm md:text-lg flex items-center gap-5 text-[#5B8FB9] mb-5">
             <FaEnvelope size={20} className="text-[#B6EADA]" />{" "}
-            example@email.com
+            tonyvito12@email.com
           </p>
           <p className="text-sm md:text-lg flex items-center gap-5 text-[#5B8FB9] mb-10 md:mb-5">
-            <FaMapMarkerAlt size={20} className="text-[#B6EADA]" /> 123 Oak
-            Street, Anytown, USA
+            <FaMapMarkerAlt size={20} className="text-[#B6EADA]" /> Ain Beida,
+            Oum El Bouaghi, Algeria
           </p>
           {/* Social */}
           <ul className="flex items-center gap-4">
@@ -79,20 +80,13 @@ const Contact = () => {
                 <FaFacebookF size={20} />
               </a>
             </li>
+
             <li>
               <a
                 href="#"
                 className="w-10 h-10 flex items-center justify-center rounded-full bg-[#B6EADA] text-[#03001C]"
               >
-                <FaTwitter size={20} />
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="w-10 h-10 flex items-center justify-center rounded-full bg-[#B6EADA] text-[#03001C]"
-              >
-                <FaDribbble size={20} />
+                <FaGithub size={20} />
               </a>
             </li>
             <li>

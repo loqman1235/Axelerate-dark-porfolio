@@ -3,11 +3,11 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="w-full flex flex-col items-center text-center mb-[140px] px-10">
-      <h1 className="text-4xl md:text-[42px] font-bold w-full md:w-3/5 leading-[49.77px] mb-4">
+      <h1 className="text-4xl md:text-6xl font-black w-full md:w-[80%] leading-[49.77px] md:leading-[68px] mb-5 tracking-tight">
         Transforming Ideas into <span className="text-[#301E67]">Powerful</span>{" "}
         Digital Experiences
       </h1>
-      <p className="w-full md:w-3/5 text-[16px] text-[#5B8FB9] leading-[26px] mb-6">
+      <p className="w-full md:w-[80%] text-[18px] text-[#5B8FB9] leading-[25px] mb-10">
         Welcome to my innovative world of full stack development. I'm passionate
         about leveraging cutting-edge technologies to create immersive and
         impactful digital experiences. With a focus on user-centric design and

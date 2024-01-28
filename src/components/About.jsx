@@ -12,12 +12,12 @@ const About = () => {
         <h3 className="font-semibold text-2xl mb-4 text-center md:text-left">
           About Me
         </h3>
-        <p className="text-[#5B8FB9] leading-[26px] text-center md:text-left mb-10 md:mb-0 ">
-          Greetings! I'm Axel, a passionate full stack developer dedicated to
-          creating engaging and innovative web experiences. With a deep
-          understanding of both front-end and back-end development, I strive to
-          craft robust and user-friendly applications that make a positive
-          impact. <br />
+        <p className="text-[#5B8FB9] leading-[25px] text-center md:text-left mb-10 md:mb-0 ">
+          Greetings! I'm Loqman Djefafla, a passionate full stack developer
+          dedicated to creating engaging and innovative web experiences. With a
+          deep understanding of both front-end and back-end development, I
+          strive to craft robust and user-friendly applications that make a
+          positive impact. <br />
           <br />
           My journey in the world of programming began with a curiosity for how
           websites come to life. Over the years, this curiosity has evolved into
